@@ -18,7 +18,16 @@ header img{
 }
 main{
     display: flex;
+    justify-content: space-between;
+    padding: 5vh 7vw;
+    margin-top: 10vh;
 }
 img{
+    width: 25vw;
+}
+p{
+    width: 40vw;
+}
+.mario-luige{
     width: 25vw;
 }
