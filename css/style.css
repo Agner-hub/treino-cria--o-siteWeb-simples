@@ -98,5 +98,38 @@ video{
     bottom: 10px;
     right: 20px;
 }
-@media screen and (max-width: 500px)
+@media screen and (max-width: 500px){
+    
+    header{
+        padding-left: 20px;
+        gap: 15px;
+        padding-right: 15px;
+    }
+    header a{
+        display: flex;
+        font-size: 12px; 
+    }
+    header img{
+        width: 10vw;
+    }
+    main{
+        display: block;
+    }
+    p{
+        margin-top: 12px;
+        width: 50vw;
+        font-size: 14px;
+    }
+    .mario{
+        width: 40vw;
+    }
+    .mario-luige{
+        position: absolute;
+        top: 17vh;
+        right: 17vw;
+    }
+    .whatsapp{
+        width: 14vw;
+    }
+}
 
