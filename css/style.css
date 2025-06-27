@@ -109,6 +109,17 @@ video{
         display: flex;
         font-size: 12px; 
     }
+    header a:hover{
+        color: red;
+        font-size: 12px;
+        transition: none;
+    }
+    button:hover{
+        background-color: red;
+        cursor: none;
+        color: white;
+        transition: none;
+    }
     header img{
         width: 10vw;
     }
